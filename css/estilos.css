@@ -1,0 +1,16 @@
+.fondo{
+	background-color: #968E8E;
+}
+
+.fondoPaneles{
+	background-color: #C1B1B1;
+}
+.botones{
+	width: 100px;
+	-webkit-text-align: center;
+	text-align: center;
+}
+
+.tamnio{
+	width: 80px;
+}

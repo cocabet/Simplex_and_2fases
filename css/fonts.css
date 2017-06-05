@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?o0h60x');
+  src:  url('fonts/icomoon.eot?o0h60x#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?o0h60x') format('truetype'),
+    url('fonts/icomoon.woff?o0h60x') format('woff'),
+    url('fonts/icomoon.svg?o0h60x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home2:before {
+  content: "\e901";
+}
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-grin2:before {
+  content: "\e9ea";
+}
+.icon-google3:before {
+  content: "\ea8a";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-blogger:before {
+  content: "\eab7";
+}
+

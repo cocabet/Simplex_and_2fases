@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simplex</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="fondo">
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 ">
+
+			<div class=" panel panel-primary">
+				<div class="panel-heading ">
+					Configuración del problema
+				</div>
+				
+				<div class="panel panel-body">
+					<form class="form-group" name="procesar" action="#">
+       					<div class="row">
+       						<div class="col-xs-12 col-sm-12 col-md-6">
+       							<div class="col-sm-12 col-md-6">
+       								<label class="control-label">Número de variables </label>
+       								<input class="form-control" type="number" name="numVar" placeholder='Variables'>
+       							</div>
+       							<div class="col-sm-12 col-md-6">
+       								<label class="control-label">Número de restricciones: </label>
+       								<input class="form-control" type="number" name="numRes" placeholder='Restricciones' />
+       							</div>
+       						</div>
+       						<div class="col-xs-12 col-sm-12 col-md-6">
+       							<div class="col-sm-12 col-md-6">
+       								<input type="radio" checked name="a" value=0 />Maximización
+       							</div>
+       							<div class="col-sm-12 col-md-6">
+	       							<input type="radio" name="a"  value=1 />Minimizacion
+    	   						</div>
+       						</div>
+
+       					</div>
+						<br>
+
+						<div class="row container">
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<button class="btn btn-primary" id="boton" name="ver" type="button" value="pross">Aceptar</button>
+									<!--<input type="submit"  id="boton" name="ver" value="Aceptar" /> -->
+								<button class="btn btn-primary " id="reset" type="button" onclick="resetear()">Resetear</button>
+							</div>
+						</div>
+
+    				</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+    <br>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12" id="valores">
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12" id="Res">
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12" id="Iteraciones">
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12" id="Resultados">
+
+		</div>
+	</div>
+	
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="jsSimplex/main.js"></script>
+<script type="text/javascript" src="jsSimplex/ResSimplex.js"></script>
+<script src="jsSimplex/dinamicos.js"></script>
+</html>
